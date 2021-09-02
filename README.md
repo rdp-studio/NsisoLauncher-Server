@@ -1,7 +1,5 @@
 # NsisoLauncher-Server(Master)
 A New Minecraft Launcher (unofficial) from Nsiso (Master)
-[![Build status](https://ci.appveyor.com/api/projects/status/st6w0l4x1fvf6m5f/branch/master?svg=true)](https://ci.appveyor.com/project/nsisogf/nsisolauncher/branch/master)
-[![Build Status](https://nsisogf.visualstudio.com/NsisoLauncher/_apis/build/status/Nsiso.NsisoLauncher?branchName=master)](https://nsisogf.visualstudio.com/NsisoLauncher/_build/latest?definitionId=1&branchName=master)
 
 感谢您关注到我们Nsiso启动器的开源项目  
 此项目开源目的在于学习，错误排查，公开安全策略  
@@ -34,5 +32,5 @@ A New Minecraft Launcher (unofficial) from Nsiso (Master)
 + 删除文件：文件1路径;文件2路径 例如：``.minecraft/mods/a.jar;.minecraft/mods/b.jar``
 
 ## 演示  
-![mainmenu.png](https://github.com/YukiCoco/NsisoLauncher-Server/blob/master/mainmenu.png?raw=true)
-![bs-plugin1.png](https://github.com/YukiCoco/NsisoLauncher-Server/blob/master/bs-plugin1.png?raw=true)
+![mainmenu.png](https://github.com/rdp-studio/NsisoLauncher-Server/blob/master/mainmenu.png?raw=true)
+![bs-plugin1.png](https://github.com/rdp-studio/NsisoLauncher-Server/blob/master/bs-plugin1.png?raw=true)
