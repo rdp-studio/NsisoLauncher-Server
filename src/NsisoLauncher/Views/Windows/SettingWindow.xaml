@@ -433,8 +433,8 @@
                     </TextBlock>
                     <TextBlock Margin="10,0">
                         二次开发
-                        <Hyperlink Click="Hyperlink_Click" NavigateUri="https://github.com/YukiCoco/NsisoLauncher-Server">
-                            https://github.com/YukiCoco/NsisoLauncher-Server
+                        <Hyperlink Click="Hyperlink_Click" NavigateUri="https://github.com/rdp-studio/NsisoLauncher-Server">
+                            https://github.com/rdp-studio/NsisoLauncher-Server
                         </Hyperlink>
                     </TextBlock>
                 </StackPanel>
