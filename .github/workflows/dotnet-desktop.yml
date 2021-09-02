@@ -41,11 +41,11 @@ jobs:
     - name: Build
       run: msbuild $env:working_dir /p:Configuration=$env:Configuration
       
-    - name: Unit test
-      run: VSTest.Console.exe $env:working_dir\$env:test_name\bin\$env:Configuration\$env:test_name.dll
-      
     - name: Upload build artifacts
       uses: actions/upload-artifact@v2
       with:
         name: ${{ env.Configuration }} Build Result
         path: ${{ env.working_dir }}\${{ env.launcher_name }}\bin\${{ env.Configuration }}
+    
+    - name: Unit test
+      run: VSTest.Console.exe $env:working_dir\$env:test_name\bin\$env:Configuration\$env:test_name.dll
