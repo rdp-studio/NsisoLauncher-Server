@@ -8,9 +8,9 @@ using System.Windows;
 [assembly: AssemblyTitle("NsisoLauncher")]
 [assembly: AssemblyDescription("A Minecraft Launcher")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Nsiso Studio")]
+[assembly: AssemblyCompany("RDPStudio")]
 [assembly: AssemblyProduct("NsisoLauncher")]
-[assembly: AssemblyCopyright("Copyright © Nsiso 2018")]
+[assembly: AssemblyCopyright("Copyright © RDP 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
