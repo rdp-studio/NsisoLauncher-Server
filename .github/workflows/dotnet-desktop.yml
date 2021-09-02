@@ -44,4 +44,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: ${{ env.Configuration }} Build Result
-        path: ${{ env.working_dir }}\${{ env.launcher_name }}\bin\${{ env.Configuration }}
+        path: ${{ env.working_dir }}\${{ env.launcher_name }}\bin\${{ env.Configuration }}\NsisoLauncher.exe
