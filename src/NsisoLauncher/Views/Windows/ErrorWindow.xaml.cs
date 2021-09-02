@@ -55,19 +55,19 @@ namespace NsisoLauncher.Views.Windows
         //作者邮箱点击后
         private void Hyperlink_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("mailto:siso@nsiso.com");
+            System.Diagnostics.Process.Start("mailto:admin@rdpstudio.top");
         }
 
         //作者qq点击后
         private void Hyperlink_Click_1(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://shang.qq.com/wpa/qunwpa?idkey=3b39ff435aeca097dbe8bcef6f32d26367bdb630357570693b5315e6c13f7c9f");
+            System.Diagnostics.Process.Start("http://wpa.qq.com/msgrd?v=3&uin=3461768305&site=qq&menu=yes");
         }
 
         //作者github点击后
         private void Hyperlink_Click_2(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Nsiso");
+            System.Diagnostics.Process.Start("https://github.com/rdp-studio");
         }
 
         private async void RebootButton_Click(object sender, RoutedEventArgs e)
@@ -79,7 +79,7 @@ namespace NsisoLauncher.Views.Windows
                 bool moreInfo = (bool)moreInfoCheckBox.IsChecked;
                 if (moreInfo)
                 { report += ("/r/n" + await GetEnvironmentInfoAsync()); }
-                await App.NsisoAPIHandler.PostLogAsync(NsisoLauncherCore.Modules.LogLevel.FATAL, report);
+                //await App.NsisoAPIHandler.PostLogAsync(NsisoLauncherCore.Modules.LogLevel.FATAL, report);
             }
             catch (Exception ex)
             {
