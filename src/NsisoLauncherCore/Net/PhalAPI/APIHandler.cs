@@ -53,13 +53,13 @@ namespace NsisoLauncherCore.Net.PhalAPI
         /// <returns></returns>
         public async Task PostLogAsync(Modules.LogLevel level, string log)
         {
-            var escapeLog = Uri.EscapeDataString(log);
-            Dictionary<string, string> args = new Dictionary<string, string>();
-            args.Add("app_key", App_key);
-            args.Add("super_type", level.ToString());
-            args.Add("super_message", log);
-            var result = await APIRequester.HttpPostReadAsStringForString(APIUrl + "?s=App.Market_SuperLogger.Record", args);
-            Console.WriteLine(result);
+            //var escapeLog = Uri.EscapeDataString(log);
+            //Dictionary<string, string> args = new Dictionary<string, string>();
+            //args.Add("app_key", App_key);
+            //args.Add("super_type", level.ToString());
+            //args.Add("super_message", log);
+            //var result = await APIRequester.HttpPostReadAsStringForString(APIUrl + "?s=App.Market_SuperLogger.Record", args);
+            //Console.WriteLine(result);
         }
 
         /// <summary>
@@ -68,7 +68,7 @@ namespace NsisoLauncherCore.Net.PhalAPI
         /// <returns></returns>
         public async Task RefreshUsingTimesCounter()
         {
-            if (!NoTracking)
+            if (false)
             {
                 try
                 {
