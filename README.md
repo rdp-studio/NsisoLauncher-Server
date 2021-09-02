@@ -6,11 +6,10 @@ A New Minecraft Launcher (unofficial) from Nsiso (Master)
 作者：Nsiso工作室-siso  
 请注意该项目遵循GNU GPL3.0开源协议  
 ## 使用项目
-[NisisoLauncher](https://github.com/Nsiso/NsisoLauncher)
 
 [yggdrasil-api](https://github.com/bs-community/yggdrasil-api)
 
-## 二次开发内容
+## NSS扩展功能
  + NsisoLauncher 从 Blessing-Skin 获取服务器公告
  + 扩展 [yggdrasil-api](https://github.com/bs-community/yggdrasil-api) ，加入防作弊功能
  
