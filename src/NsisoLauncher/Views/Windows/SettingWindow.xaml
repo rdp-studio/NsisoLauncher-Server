@@ -413,7 +413,7 @@
             <!--#region 关于-->
             <TabItem Header="关于">
                 <StackPanel>
-                    <TextBlock Margin="10,0">
+                    <!--<TextBlock Margin="10,0">
                         启动器开源
                         <Hyperlink Click="Hyperlink_Click" NavigateUri="https://github.com/Nsiso/NsisoLauncher">
                             https://github.com/Nsiso/NsisoLauncher
@@ -430,9 +430,9 @@
                         <Hyperlink Click="Hyperlink_Click" NavigateUri="https://github.com/Nsiso/NsisoLauncher/wiki">
                             https://github.com/Nsiso/NsisoLauncher/wiki
                         </Hyperlink>
-                    </TextBlock>
+                    </TextBlock>-->
                     <TextBlock Margin="10,0">
-                        二次开发
+                        启动器开源
                         <Hyperlink Click="Hyperlink_Click" NavigateUri="https://github.com/rdp-studio/NsisoLauncher-Server">
                             https://github.com/rdp-studio/NsisoLauncher-Server
                         </Hyperlink>
