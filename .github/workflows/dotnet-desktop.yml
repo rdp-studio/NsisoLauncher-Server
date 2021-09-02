@@ -19,7 +19,6 @@ jobs:
     env:
       working_dir: src
       launcher_name: NsisoLauncher
-      test_name: NsisoLauncherCoreTest
       Configuration: ${{ matrix.configuration }}
       
     steps:
@@ -46,6 +45,3 @@ jobs:
       with:
         name: ${{ env.Configuration }} Build Result
         path: ${{ env.working_dir }}\${{ env.launcher_name }}\bin\${{ env.Configuration }}
-    
-    - name: Unit test
-      run: VSTest.Console.exe $env:working_dir\$env:test_name\bin\$env:Configuration\$env:test_name.dll
