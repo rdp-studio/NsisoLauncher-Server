@@ -26,7 +26,7 @@
                 Style="{DynamicResource SquareButtonStyle}" Click="CopyButton_Click" Width="100" Height="35"/>
             <Button x:Name="CloseButton" Content="忽视这个错误" Style="{DynamicResource SquareButtonStyle}"
                 Click="CloseButton_Click" Height="35" Width="100" Margin="5,0"/>
-            <Button x:Name="RebootButton" Content="报告并重启启动器"
+            <Button x:Name="RebootButton" Content="不报告重启启动器"
                  Style="{StaticResource AccentedSquareButtonStyle}" FontSize="12" Click="RebootButton_Click" Height="35" Width="140"/>
         </StackPanel>
 
